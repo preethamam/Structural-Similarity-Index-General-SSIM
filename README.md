@@ -2,7 +2,7 @@
 This Python function calculates the structural similarity (SSIM) index for grayscale or color images. The index range from -1 to +1, closer to +1 indicates the high similarity to the reference image, -1 informs the highest dissimilarity.
 
 # Quick Pipeline Visualization
-Example: Fused images with keypoints
+Example: SSIM value and map image.
 | SSIM value | SSIM map image|
 | ------------- | ------------- |
 | 0.9407032 | <img width="431" alt="ssim_map" src="https://github.com/preethamam/Structural-Similarity-Index-General-SSIM/assets/28588878/dfa5d22d-2002-4a05-93f1-22efd9c34d52"> |
