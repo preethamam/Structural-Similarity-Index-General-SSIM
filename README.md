@@ -9,8 +9,8 @@ Example: SSIM value and map image.
 
 # Requirements
 Python  <br />
-Python Imaging Library <br />
-NumPy library <br />
+Python Imaging Library (PIL) <br />
+NumPy library (numpy) <br />
 Matplotlib
 
 # References
