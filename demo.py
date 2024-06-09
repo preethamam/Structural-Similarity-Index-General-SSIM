@@ -1,3 +1,4 @@
+import matplotlib.pyplot as plt
 import numpy as np
 from PIL import Image
 
@@ -16,3 +17,8 @@ ssimval, ssimmap = ssim_general(A, ref, exponents=[1, 1, 1])
 
 # Print SSIM
 print(ssimval)
+
+# Show SSIM map image
+plt.imshow(ssimmap, cmap='gray')
+plt.colorbar()
+plt.show()
