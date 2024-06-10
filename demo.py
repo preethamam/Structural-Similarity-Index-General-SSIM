@@ -5,8 +5,8 @@ from PIL import Image
 from ssim import ssim_general
 
 # Input images
-img_ref = r"ref.png"
-img_A = r"A.png"
+img_ref = r"images/ref.png"
+img_A = r"images/A.png"
 
 # Read images
 ref = np.array(Image.open(img_ref).convert('RGB'))
